@@ -1,0 +1,42 @@
+
+.joined-btn-contain {
+  display: inline-block;
+  
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  .joined-btn {
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px;
+    font-size: 12px;
+    line-height: 18px;
+    border: 1px solid #dcdee0;
+
+    &:first-child {
+      border-top-left-radius: 2px;
+      border-bottom-left-radius: 2px;
+    }
+
+    &:last-child {
+      border-top-right-radius: 2px;
+      border-bottom-right-radius: 2px;
+    }
+  }
+
+  .joined-btn + .joined-btn {
+    border-left: none;
+  }
+
+  .active-btn {
+    color: #fff;
+    background: #198cff;
+  }
+
+  .disabled-btn {
+    color: #dcdee0;
+  }
+}
