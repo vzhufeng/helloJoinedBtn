@@ -1,5 +1,5 @@
 {
-  "name": "hello-joned-btn",
+  "name": "hello-joined-btn",
   "version": "0.0.1",
   "description": "a react component, serveral btns joined together, you can active one of them, and deactive it.",
   "main": "dist/index.js",
