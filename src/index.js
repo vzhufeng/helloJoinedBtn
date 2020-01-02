@@ -3,12 +3,9 @@ import './style.scss';
 
 export default class JoinedBtn extends Component {
   changeActive = v => {
-    const { changeActiveBtn, activeBtn } = this.props;
-    if (activeBtn === v) {
-      changeActiveBtn('');
-    } else {
-      changeActiveBtn(v);
-    }
+    const { changeActiveBtn } = this.props;
+    // 点击当前已激活的按钮还是自己来判断比较合适
+    changeActiveBtn(v);
   };
 
   render() {
